@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+nav h1{
+    font-size: 45px;
+    color: #131313;
+    margin-top: 50px;
+    margin-left:220px;
+}
+nav ul{
+    display: flex;
+    margin-top: 63px;
+    margin-right: 220px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 28px;
+}

@@ -164,7 +164,7 @@ margin-bottom: 50px;
     margin-left: 200px;
 }
 .gallery:hover{
-    box-shadow:25px 25px 25px;
+    box-shadow:25px 25px 25px blueviolet;
 }
 
 .footer{
@@ -175,3 +175,151 @@ margin-bottom: 50px;
     margin-bottom: 115px;
     margin-left: 240px;
 }
+@media screen and (max-width:576px){
+    body{
+      background-color: cadetblue;
+    }
+    
+nav {
+    flex-direction: column;
+}
+
+nav h1 {
+    font-size: 25px;
+    color: #131313;
+    margin-top: 50px;
+    
+}
+
+nav ul {
+    flex-direction: column;
+    margin-top: 63px;
+   
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #424242;
+}
+.div1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head1 {
+    font-size: 30pxpx;
+    color: #131313;
+}
+
+.para{
+    font-size: 16px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.btn-btn {
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner img{
+    width: 450px;
+}
+.main-content{
+    flex-direction: column;
+}
+.image-show img{
+    width: 240px;
+    height: 240px;
+}
+.image-show{
+    flex-direction: column;
+    
+}
+.font-color{
+    color:#131313;
+}
+.span-color{
+    color: #FF900E;
+}
+.project-div{
+    margin-top: 50px;
+   
+}
+.head2{
+   color: #727272
+}
+
+.experience{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.experience h2{
+    border-left: 3px solid tomato;
+    padding-left: 10px;
+}
+.achivments{
+    flex-direction: column;
+    }
+ 
+ .achive-content{
+     margin-bottom: 45px;
+ }
+ .head-achive{
+     color: #131313;
+     margin-top: 30px;
+ }
+ .para-achive{
+     margin-top:30px;
+ }
+ .sponsor-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.sponsor-content h3{
+   color: #131313;
+   font-size: 25px;
+}
+.sponsor-content p{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+.sponsor-image{
+   flex-direction: column; 
+}
+.img-h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .img-h2{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        }
+        .img-h2:hover{
+            color: #FF900E;
+        }
+        .gallery{
+           flex-direction: column;
+            
+        }
+        .gallery:hover{
+            box-shadow:25px 25px 25px blueviolet;
+        }
+}
+
+

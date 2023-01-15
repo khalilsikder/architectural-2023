@@ -105,3 +105,45 @@ nav ul li {
     margin-right: 130px;
     margin-left: 130px;
 }
+.achivments{
+    display: flex;
+   justify-content: center;
+   gap:150px;}
+
+.head-achive{
+    color: #131313;
+    margin-top: 130px;
+    margin-left: 240px;
+    font-size: 45px;
+}
+.para-achive{
+    margin-top:30px;
+    margin-left: 240px;
+}
+.sponsor-content{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsor-content h3{
+   color: #131313;
+   font-size: 45px;
+}
+.sponsor-content p{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+.sponsor-image{
+   display: flex;
+   justify-content: center;
+   gap:150px; 
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-right: 240px;
+    margin-bottom: 115px;
+    margin-left: 240px;
+}
